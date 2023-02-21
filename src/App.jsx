@@ -9,6 +9,7 @@ const App = () => {
     setName(!name);
     setImage(!image);
   };
+  
   return (
     <>
       {/* <Navbar />
