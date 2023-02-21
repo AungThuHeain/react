@@ -271,7 +271,13 @@ const Products = () => {
     },
   ];
   return (
-    <Card products = {products}/>
+    <div className="container">
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+      {products.map((product) => (
+         <Card products = {product} key={product.id} name="Aung Thu Heain"/>
+      ))}
+    </div>
+    </div>
   );
 };
 
