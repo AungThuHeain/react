@@ -9,7 +9,6 @@ const App = () => {
     setName(!name);
     setImage(!image);
   };
-  
   return (
     <>
       {/* <Navbar />
@@ -25,7 +24,7 @@ const App = () => {
         class="img-fluid rounded-top"
         alt=""
       />
- 
+
       <button onClick={changeHandelar} className="btn btn-danger">
         Change
       </button>
